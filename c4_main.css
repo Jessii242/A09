@@ -1,0 +1,157 @@
+body h2{
+    font-size: 170%;
+    color: #800000;
+}
+
+body h3{
+    font-size: 130%;
+    font-style: italic;
+}
+
+header img{
+    float:left;
+}
+
+a{
+    font-style: normal;
+}
+a:hover{
+    font-style: italic;
+}
+
+footer p{
+    text-align: center;
+}
+
+.year{
+    text-shadow: 1px 2px #800000;
+    color: #800000;
+}
+
+body{
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: #931420;
+    border-width: 3px;
+    border-style: solid;
+    width: 800px;
+}
+
+html{
+    background-color:#fffded;
+}
+
+header{
+    background: linear-gradient(30deg,#f6bb73 0%,#f6bb73 30%,white 50%,#f6bb73 80%,#f6bb73 100%);
+    border-bottom: #931420;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    padding-top: 1.5px;
+    padding-bottom: 2px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+main h1{
+    border-bottom: #931420;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-top: #931420;
+    border-top-width: 3px;
+    border-top-style: solid;
+    font-size: 150%;
+    padding-top: 0.5ems;
+    padding-bottom: 0.25ems;
+    margin:0;
+}
+
+main{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer{
+    border-top: #931420;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-bottom: #931420;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    background-color: #931420;
+    color: white;
+    clear:both; 
+}
+
+blockquote{
+    font-style: italic;
+}
+section{
+    width:525px;
+    float:right;
+}
+
+aside{
+    width:215px;
+    float:left;
+    margin-left:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 20px;
+    
+}
+
+section img{
+    float: right;
+    margin:10px;
+}
+
+#nav_menu ul{
+   list-style-type: none; 
+   margin:0;
+   padding:0;
+}
+#nav_menu li{
+    float:left;
+    display:inline;
+}
+li a{
+    display:block;
+    width:100%;
+    text-align: center;
+    padding:14px 16px;
+    background-color: #800000;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+li a:hover{
+    background-color: #931420;
+}
+#nav_menu ul{
+    background-color: #800000;
+}
+.current{
+    color:yellow;
+}
+
+.subnav {
+    display: none; 
+    position: absolute;
+    background-color: #800000;
+    padding: 0;
+}
+
+li:hover .subnav {
+    display: block; 
+}
+
+.subnav li {
+    display: block;
+}
+
+li {
+    list-style-type: circle;
+}
