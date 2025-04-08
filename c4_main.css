@@ -142,6 +142,7 @@ li a:hover{
     position: absolute;
     background-color: #800000;
     padding: 0;
+    width: 150px;
 }
 
 li:hover .subnav {
@@ -150,8 +151,17 @@ li:hover .subnav {
 
 .subnav li {
     display: block;
+    text-align: left;
 }
 
-li {
-    list-style-type: circle;
+.subnav li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #931420;
+}
+
+.subnav li a:hover {
+    background-color: #800000;
 }
