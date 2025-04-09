@@ -165,3 +165,6 @@ li:hover .subnav {
 .subnav li a:hover {
     background-color: #800000;
 }
+li{
+    list-style-type: circle;
+}
